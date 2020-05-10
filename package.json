@@ -1,0 +1,26 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "Realtime chat",
+  "main": "server.js",
+  "author": "Charles Bidaut",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node server",
+    "dev": "nodemon --exec babel-node server"
+  },
+  "dependencies": {
+    "date-fns": "^2.12.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "qs": "^6.9.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.3"
+  }
+}
